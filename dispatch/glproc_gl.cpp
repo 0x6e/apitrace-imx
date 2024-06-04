@@ -154,7 +154,7 @@ _getPrivateProcAddress(const char *procName)
 
 static inline void
 logSymbol(const char *name, void *ptr) {
-    if (0) {
+    if (1) {
         if (ptr) {
             Dl_info info;
             if (ptr && dladdr(ptr, &info)) {
